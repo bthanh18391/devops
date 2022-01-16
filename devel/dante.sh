@@ -29,7 +29,7 @@ fi
 
 cat >/etc/danted.conf <<EOF
 logoutput: /var/log/danted.log
-internal: 127.0.0.1 port = 1080
+internal: 127.0.0.1 port = 10555
 external: ${DANTE_IF}
 user.notprivileged: dante
 clientmethod: none
